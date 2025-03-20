@@ -1,6 +1,6 @@
 :root {
-    --heading-background-color: #000;
-    --heading-text-color: #fff;
+    --heading-background-color: #fff;
+    --heading-text-color: #000;
     --heading-font: 'Montserrat', Helvetica, sans-serif;
     --padding: 1rem;
     --border: 1px solid rgb(0 0 0 / 0.1);
