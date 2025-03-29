@@ -178,7 +178,7 @@ section p {
     grid-template-columns: minmax(600px, 700px)
 }
 
-section2 {
+.section2 {
     grid-area: section;
     width: 100%;
     max-width: 1200px;
@@ -186,6 +186,12 @@ section2 {
     margin-top: 30px;
     text-align: center;
     transform: translateY(250%)
+}
+
+
+.section2 p {
+    font-family: 'Funnel Sans', sans-serif;
+    font-size: 2.5rem;
 }
 
 .adventure-images {
@@ -199,13 +205,6 @@ section2 {
     height: 100px;
     background-color: gray;
 }
-
-
-section2 p {
-    font-family: 'Funnel Sans', sans-serif;
-    font-size: 2.5rem;
-}
-
 
 footer {
     grid-area: footer;
