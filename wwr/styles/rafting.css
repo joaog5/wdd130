@@ -97,9 +97,6 @@ main {
 
 .hero content {
     position:absolute;
-    top: 20%;
-    /*left: 50%;
-    transform: translateX(-50%);*/
     color: white;
     text-align: center;
     z-index: 1;
