@@ -118,9 +118,9 @@ h1 {
 article {
     grid-area: article;
     display: flex;
-    /*flex-direction: row-reverse;
+    flex-direction: row-reverse;
     align-items: center;
-    justify-content: space-between;*/
+    justify-content: space-between;
     width: 100%;
     padding: var(--padding);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
