@@ -154,8 +154,7 @@ h3 {
     background-color: var(--primary-color);
     font-size: 1.5rem;
     color: var(--secondary-color);
-    margin: 2px solid rgb(0 0 0);
-    /*transform: translateY(1300%)*/
+    margin: 1px;
     position: absolute;
     bottom: 410px;
     left:320px;
@@ -166,7 +165,6 @@ section {
     display: flex;
     justify-content: center;
     text-align: center;
-    /*align-items: center;*/
     flex-direction: column;
     position:relative;
     top:550px;
