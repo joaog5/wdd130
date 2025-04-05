@@ -109,12 +109,13 @@ h1 {
     color: var(--secondary-color);
     padding: var(--padding);
     text-align: center;
+    justify-content: center;
+    align-items:center;
     font-size: 1.5rem;
     margin-top: 2px;
     display: grid;
-    /*transform: translateY(-420%) translateX(180%);*/
     position: absolute;
-    top: 10px;
+    top: 31px;
     left: 730px;
     z-index: 1;
     
@@ -123,14 +124,15 @@ h1 {
 article {
     grid-area: article;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background-color: var(--accent1-color);
-    position: absolute; 
-    left: 50%;
-    transform: translateX(-50%) translatey(-20%);
+    text-align: center;
+    /*justify-content: space-between;*/
+    padding: 2px;
+    background-color: #fff;
+    position: absolute;
+    left: 585px;
+    bottom: 100px;
+    max-width: 700px;
+    /*transform: translateX(-50%) translatey(-20%);*/
     width: 90%;
     
 }
@@ -138,39 +140,45 @@ article {
 article img {
     max-width: 300px;
     height: auto;
-    transform: translateX(-210%) translateY(50%);
+    
 }
 
 .article-content {
     flex: 1;
-    padding: 20px;
-    width: 400px;
-    transform: translateY(-60%);
+    padding: 40px;
     font-size: 1rem;
-    
+    margin: 10px;
 }
 
 h3 {
     background-color: var(--primary-color);
     font-size: 1.5rem;
     color: var(--secondary-color);
-    margin: 20px 0;
-    transform: translateY(1300%)
+    margin: 2px solid rgb(0 0 0);
+    /*transform: translateY(1300%)*/
+    position: absolute;
+    bottom: 410px;
+    left:320px;
 }
 
 section {
     grid-area: section;
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-direction: column;
     text-align: center;
+    /*align-items: center;*/
+    flex-direction: column;
+    position:relative;
+    top:550px;
+    left: 40px
 }
 
 section img {
     width: 100%;
     max-width: 300px;
     margin: 10px 0;
+    position: relative;
+    left: 210px;
 }
 
 section p {
@@ -178,8 +186,37 @@ section p {
     font-size: 2rem;
     background-color: #fff;
     display:grid;
-    grid-template-columns: minmax(600px, 700px)
+    grid-template-columns: minmax(600px, 700px);
+    text-align: center;
 }
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    font-family:sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+
+caption {
+    caption-side:bottom;
+    padding: 10px;
+    font-weight: bold;
+}
+
+
+thead {
+    background-color: #6e0000;
+    color:var(--secondary-color);
+}
+
+
+tc {
+    border: 1px solid rgb(0 0 0);
+    padding: 8px 10px;
+    background-color: #fff;
+}
+
 
 .section2 {
     grid-area: section;
@@ -187,8 +224,15 @@ section p {
     max-width: 1200px;
     padding: var(--padding);
     margin-top: 30px;
-    text-align: center;
-    transform: translateY(250%)
+    position:relative;
+    top:520px;
+}
+
+h4 {
+    text-align:center;
+    color:#6e0000;
+    font-size: 30px;
+
 }
 
 
@@ -197,16 +241,64 @@ section p {
     font-size: 2.5rem;
 }
 
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+    display: block;
+    caption-side: bottom;
+  }
+
 .adventure-images {
     display: flex;
+    flex-flow: row;
+    padding: 5px;
     justify-content: center;
     gap: 10px;
 }
 
 .adventure-images img {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     background-color: gray;
+}
+
+.subscribe {
+    text-align: center;
+}
+
+form fieldset {
+    border: 1px solid rgb(0 0 0);
+    padding: 30px;
+    margin: 0 auto;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form textarea,
+form input[type="text"],
+form input[type="email"],
+form button {
+    padding: 10px;
+    font-size: 1rem;
+    font-family: 'Funnel Sans', sans-serif;
+}
+
+form button {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-weight: bold;
+}
+
+form button:hover {
+    background-color: var(--accent2-color);
 }
 
 footer {
@@ -217,7 +309,8 @@ footer {
     padding: 1rem 0;
     background-color: var(--primary-color);
     color: var(--secondary-color);
-    transform: translateY(300%);
+    position: relative;
+    top: 500px;
 }
 
 footer p {
