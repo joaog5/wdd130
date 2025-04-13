@@ -275,8 +275,13 @@ tc {
     position: relative;
     display: flex;
     flex-direction: column;
-    
+}
 
+.section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 
@@ -307,13 +312,41 @@ figcaption {
     display: flex;
     flex-flow: row;
     justify-content: center;
-    gap: 100px;
+    gap: 200px;
 
 }
 
 .adventure-images img {
     width: 200px;
     height: 200px;
+    background-color: gray;
+    border: 3px solid rgb(0 0 0)
+}
+
+.beach {
+    width: 300px;
+    height: 300px;
+    background-color: gray;
+    margin-top: 100px;
+}
+
+.beach img{
+    width: 300px;
+    height: 300px;
+    background-color: gray;
+    border: 3px solid rgb(0 0 0);
+}
+
+.camping {
+    width: 405px;
+    height: 200px;
+    background-color: gray;
+    margin-top: 100px;
+}
+
+.camping img {
+    width: 400px;
+    height: 400px;
     background-color: gray;
     border: 3px solid rgb(0 0 0)
 }
