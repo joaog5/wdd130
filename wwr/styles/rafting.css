@@ -93,7 +93,7 @@ main {
 
 .hero-img {
     text-align: center;
-    width: 100%;
+    width: 98%;
     height: 90vh;
     background-size: cover;
     /*background-position: center;*/
@@ -185,10 +185,12 @@ h3 {
     background-color: var(--primary-color);
     font-size: 1.5rem;
     color: var(--secondary-color);
-    margin: 1px;
+    margin: 10px;
+    /*padding: 10px;
+    width: 500px;*/
     border: 1px solid rgba(0, 0, 0, 0.1);
     position: relative;
-    align-items: center;
+    
 }
 
 section {
@@ -312,11 +314,37 @@ tc {
 
 h4 {
     text-align:center;
-    color:#6e0000;
+    background-color: #6e0000;
+    color:var(--secondary-color);
     font-size: 30px;
+    padding: 1rem;
+    border: 2px solid black;
+    margin: 20px;
+    box-shadow: 0 0 20px white;
+    width: 500px;
 
 }
 
+.h5 {
+    text-align:center;
+    background-color: #6e0000;
+    color:var(--secondary-color);
+    font-size: 30px;
+    font-family: sans-serif;
+    padding: 1rem;
+    border: 2px solid black;
+    margin: 20px;
+    box-shadow: 0 0 20px white;
+    width: 500px;
+    position: absolute;
+
+}
+
+.mountain {
+    background-size: cover;
+    width: 90%;
+    height: 60vh
+}
 
 .section2 p {
     font-family: 'Funnel Sans', sans-serif;
